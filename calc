@@ -1,0 +1,14 @@
+#!/bin/sh
+add ()
+{
+x = $1
+y = $2
+echo " The number entered are $x and $y "
+echo "sum of $1 and $2 are `expr $x + $y`"
+}
+echo "eneter the value of x"
+read x
+echo "enter the value of y"
+read y
+add $x $y
+echo " end of the program"
